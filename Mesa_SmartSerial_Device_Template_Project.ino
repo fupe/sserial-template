@@ -99,7 +99,7 @@ static const LBP_PDD PDD[] =
 static const uint8_t PTOC_SEL[][12] =  //  12  because max bytes 96/8 =12
 {
   {4,5},       //sw_mode=0
-  {4,5,ž},       //sw_mode=1
+  {4,5,6},       //sw_mode=1
   {4,5,6,7,8}  //sw_mode=2
 };
 
